@@ -1,0 +1,4 @@
+.nav li a:hover{
+    font-weight: bold;
+    transition: linear 0.3s;
+}

@@ -10,5 +10,5 @@ body{
 }
 
 .btn-general{
-    @apply
+    @apply px-5 py-2 bg-[#276E90] rounded-lg text-white font-bold hover:bg-[#328ab3]
 }

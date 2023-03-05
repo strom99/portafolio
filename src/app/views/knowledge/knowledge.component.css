@@ -1,19 +1,19 @@
-.menu li{
-    @apply absolute w-10 list-none origin-[100px] left-0 transition duration-700;
+.menu li, .menu2 li, .menu3 li{
+    @apply absolute w-[70px] list-none origin-[180px] left-0 transition duration-700;
     transition-delay: calc(0.1s * var(--i));
-    transform: rotate(0deg) translateX(100px);
+    transform: rotate(0deg) translateX(150px);
 }
 
-.menu.active li{
+.menu.active li, .menu2.active li, .menu3.active li{
     transform: rotate(calc(360deg / 5 * var(--i)));
 }
 
-.menu li a{
+.menu li a, .menu2 li a, .menu3 li a{
     display: flex;
     transform: rotate(calc(360deg / -5 * var(--i)));
 }
 
-.menu.active .toggle{
+.menu.active .toggle, .menu2.active .toggle2, .menu3.active .toggle2{
     transform: rotate(315deg);
     transition: transform 1.25s;
 }

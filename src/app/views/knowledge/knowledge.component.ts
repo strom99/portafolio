@@ -18,4 +18,16 @@ export class KnowledgeComponent implements OnInit {
     menu.classList.toggle('active');
   }
 
+  toggle2() {
+    let menu:any = document.querySelector('.menu2');
+    menu.classList.toggle('active');
+  }
+
+  toggle3() {
+    let menu:any = document.querySelector('.menu3');
+    menu.classList.toggle('active');
+  }
+
+
+
 }

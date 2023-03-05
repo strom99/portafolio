@@ -1,0 +1,19 @@
+.menu li{
+    @apply absolute w-10 list-none origin-[100px] left-0 transition duration-700;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(100px);
+}
+
+.menu.active li{
+    transform: rotate(calc(360deg / 5 * var(--i)));
+}
+
+.menu li a{
+    display: flex;
+    transform: rotate(calc(360deg / -5 * var(--i)));
+}
+
+.menu.active .toggle{
+    transform: rotate(315deg);
+    transition: transform 1.25s;
+}

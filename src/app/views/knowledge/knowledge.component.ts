@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KnowledgeComponent implements OnInit {
 
+  active = ''
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggle() {
+    let menu:any = document.querySelector('.menu');
+    menu.classList.toggle('active');
   }
 
 }

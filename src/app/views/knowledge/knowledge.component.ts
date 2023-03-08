@@ -14,18 +14,30 @@ export class KnowledgeComponent implements OnInit {
   }
 
   toggle() {
-    let menu:any = document.querySelector('.menu');
+    let menu:any = document.querySelector('.icono');
     menu.classList.toggle('active');
+    let lis = menu.closest('.menu').querySelectorAll('li');
+    lis.forEach((tag:any) => {
+      tag.classList.toggle('animacion');
+    });
   }
 
   toggle2() {
-    let menu:any = document.querySelector('.menu2');
+    let menu:any = document.querySelector('.icono2');
     menu.classList.toggle('active');
+    let lis = menu.closest('.menu2').querySelectorAll('li');
+    lis.forEach((tag:any) => {
+      tag.classList.toggle('animacion');
+    });
   }
 
   toggle3() {
-    let menu:any = document.querySelector('.menu3');
+    let menu:any = document.querySelector('.icono3');
     menu.classList.toggle('active');
+    let lis = menu.closest('.menu3').querySelectorAll('li');
+    lis.forEach((tag:any) => {
+      tag.classList.toggle('animacion');
+    });
   }
 
 

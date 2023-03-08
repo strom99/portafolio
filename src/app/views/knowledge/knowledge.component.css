@@ -4,8 +4,12 @@
     transform: rotate(0deg) translateX(150px);
 }
 
-.menu.active li, .menu2.active li, .menu3.active li{
+/* .menu.active li, .menu2.active li, .menu3.active li{
     transform: rotate(calc(360deg / 5 * var(--i)));
+} */
+
+.animacion{
+    transform: rotate(calc(360deg / 5 * var(--i))) !important;
 }
 
 .menu li a, .menu2 li a, .menu3 li a{
@@ -13,7 +17,7 @@
     transform: rotate(calc(360deg / -5 * var(--i)));
 }
 
-.menu.active .toggle, .menu2.active .toggle2, .menu3.active .toggle2{
+.icono.active .toggle, .icono2.active .toggle, .icono3.active .toggle{
     transform: rotate(315deg);
     transition: transform 1.25s;
 }

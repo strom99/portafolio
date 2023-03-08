@@ -12,4 +12,18 @@ export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  efectHov(evt: any) {
+    let img = evt.target.firstChild;
+    let description = img.nextSibling;
+
+    img.classList.add('hov');
+    description.style.opacity = '1';
+  }
+  efectHovLeav(evt: any) {
+    let img = evt.target.firstChild;
+    let description = img.nextSibling;
+    evt.target.firstChild.classList.remove('hov')
+    description.style.opacity = '0';
+  }
+
 }

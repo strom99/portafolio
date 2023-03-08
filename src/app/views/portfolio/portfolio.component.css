@@ -4,3 +4,15 @@ img{
     object-fit: cover;
     object-position: top;
 }
+
+.hov{
+    @apply opacity-30;
+}
+
+.hovlev{
+    @apply opacity-100
+}
+
+.description{
+    @apply opacity-0 transition ease-linear;
+}

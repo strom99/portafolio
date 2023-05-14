@@ -9,6 +9,9 @@ import { KnowledgeComponent } from './views/knowledge/knowledge.component';
 import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { HeaderComponent } from './component/header/header.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { GeneralComponent } from './views/general/general.component';
+import { ProyectoComponent } from './views/proyecto/proyecto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HeaderComponent } from './component/header/header.component';
     KnowledgeComponent,
     PortfolioComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    GeneralComponent,
+    ProyectoComponent
   ],
   imports: [
     BrowserModule,

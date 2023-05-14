@@ -1,7 +1,9 @@
-<div class="content h-screen">
+<div class="content h-screen relative">
   <app-header></app-header>
-  <app-home></app-home>
-  <app-about-me></app-about-me>
-  <app-knowledge></app-knowledge>
-  <app-portfolio></app-portfolio>
+
+  <div class="min-h-[88%] m-auto">
+    <router-outlet></router-outlet>
+  </div>
+
+  <app-footer></app-footer>
 </div>

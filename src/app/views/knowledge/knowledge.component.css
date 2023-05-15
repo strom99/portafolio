@@ -1,7 +1,7 @@
 .menu li,
 .menu2 li,
 .menu3 li {
-  @apply absolute w-[70px] list-none origin-[180px] left-0 transition duration-700;
+  @apply absolute w-[70px] list-none origin-[155px] sm:origin-[180px] left-[10px] sm:left-0 transition duration-700;
   transition-delay: calc(0.1s * var(--i));
   transform: rotate(0deg) translateX(150px);
 }

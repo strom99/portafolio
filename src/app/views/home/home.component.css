@@ -2,4 +2,7 @@
   #inicio {
     flex-wrap: wrap;
   }
+  .imgbox {
+    margin-bottom: 30px;
+  }
 }
